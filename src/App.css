@@ -120,7 +120,8 @@
 
 .parent-box {
   position: absolute;
-  top: 20px;
+  top: 35%;
+  transform: translateY(-50%);
   right: -47px;
   transition: all 300ms linear;
 }
