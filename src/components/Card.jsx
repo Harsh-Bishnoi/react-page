@@ -13,21 +13,21 @@ const Card = () => {
                                 <div key={index} className='card mx-auto'>
                                     <div className="parent-box">
                                         <div className="box">
-                                            <a href=""><FacebookIcon />
+                                            <a href="https://www.facebook.com/?_rdr" target='_blank'><FacebookIcon />
                                             </a>
                                         </div>
                                         <div className="box mt-5">
-                                            <a href="">
+                                            <a href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'>
                                                 <InstaIcon />
                                             </a>
                                         </div>
                                         <div className="box mt-5">
-                                            <a href="">
+                                            <a href="https://x.com/?lang=en" target='_blank'>
                                                 <TwitterIcon />
                                             </a>
                                         </div>
                                         <div className="box mt-5">
-                                            <a href=""><ShopshyIcon />
+                                            <a href="https://www.skype.com/en/" target='_blank'><ShopshyIcon />
                                             </a>
                                         </div>
                                     </div>
