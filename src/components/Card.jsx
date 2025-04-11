@@ -13,16 +13,22 @@ const Card = () => {
                                 <div key={index} className='card mx-auto'>
                                     <div className="parent-box">
                                         <div className="box">
-                                            <div className='d-flex justify-content-center align-items-center'><FacebookIcon /></div>
+                                            <a href=""><FacebookIcon />
+                                            </a>
                                         </div>
                                         <div className="box mt-5">
-                                            <div className='d-flex justify-content-center align-items-center'><InstaIcon /></div>
+                                            <a href="">
+                                                <InstaIcon />
+                                            </a>
                                         </div>
                                         <div className="box mt-5">
-                                            <div className='d-flex justify-content-center align-items-center'><TwitterIcon /></div>
+                                            <a href="">
+                                                <TwitterIcon />
+                                            </a>
                                         </div>
                                         <div className="box mt-5">
-                                            <div className='d-flex justify-content-center align-items-center'><ShopshyIcon /></div>
+                                            <a href=""><ShopshyIcon />
+                                            </a>
                                         </div>
                                     </div>
                                     <img src={item.image} alt={item.title} className='card-image' />
